@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* .first__field {   
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 13px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.first__field button {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    padding: 0px 30px;
+}
+
+
+.v__e__d__holder button{
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    padding: 0px 30px;
+}
+
+.pud-2 {
+    color: white;
+    margin-left: 72rem;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 12px;
+
+} */
+
+
+#accordion {
+    margin: 100px auto;
+    width: 70%;
+
+}
+ #accordion li {
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+    /* background-color: rgba(48, 73, 24, 0.2); */
+    padding: 10px;
+    border-radius: 10px;
+ }
+
+
+.first__field {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(48, 73, 24, 0.2);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 14px;
+    align-items: center;
+}
+
+.first__field button {
+    outline: none;
+    color: black;
+    padding: 0px 30px;
+    background: none;
+    border: none;
+}
+
+.add__btn {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+
+.pud-2 {
+    display: flex;
+    background-color: green;
+    padding: 12px;
+    align-items: flex-end;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    align-items: flex-end;;
+}
+
+.v__e__d__holder button {
+    outline: none;
+    color: black;
+    padding: 0px 30px;
+    background: none;
+    border: none;
+}
+
+
+ #accordion li label {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgba(48, 73, 24, 0.2);
+    margin-bottom: 20px;
+    font-weight: 500px;
+    cursor: pointer;
+    color: ;
+ }
+
+ #accordion li label span {
+    transform: rotate(90deg);
+    font-size: 24px;
+    color: red;
+ }
+
+  #accordion label + input[type="checkbox"] {
+    display: none;
+  }
+
+#accordion .content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+#accordion label+input[type="checkbox"]:checked + .content {
+    max-height: 400px;
+}
+
+
